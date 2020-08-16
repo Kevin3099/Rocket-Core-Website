@@ -1,0 +1,17 @@
+/* 
+    Styling for sticky footer.
+    Will remain at bottom of screen even if content above
+    is not long enough to fill the viewport.
+
+    Resource:
+    https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+*/
+.site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
