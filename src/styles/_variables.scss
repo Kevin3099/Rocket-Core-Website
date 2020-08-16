@@ -1,0 +1,12 @@
+/* In here is where we might want to store any variables that will be used in multiple stylesheets
+   for different components and pages.
+   You can then import this .scss file into other .scss files and use the variable names without
+   needing to write them from scratch again. Useful if we suddenly decide we want to change the
+   entire colour scheme or something xD
+*/
+
+$dark: #0A0D00;
+$darkBlue: #091026;
+$accentBlue: #2A6BBF;
+$yellow: #F2E963;
+$orange: #F2BC57;
